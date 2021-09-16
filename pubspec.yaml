@@ -1,0 +1,44 @@
+name: ligh
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  outlined_text: ^1.0.1
+  get: ^4.1.4
+  google_fonts: ^1.1.1
+  extended_tabs: ^2.3.0
+  fluttertoast: ^7.1.6
+  material_floating_search_bar: ^0.3.4
+  flat_segmented_control: ^0.1.0
+  modal_bottom_sheet: ^2.0.0
+  flutter_form_builder: ^3.12.0
+  shimmer_animation: ^2.1.0+1
+  cached_network_image: ^2.5.1
+  firebase_core: ^0.5.0
+  cloud_firestore: ^0.14.0+2
+  firebase_auth: ^0.18.1+1
+  firebase_storage: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/timeline.png
+    - assets/images/blog.png
+    - assets/images/collection.png
+    - assets/images/media.png
+    - assets/images/story.png
